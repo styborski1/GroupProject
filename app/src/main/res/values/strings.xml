@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Group Project</string>
+    <string name="hint_title">Title</string>
+    <string name="hint_desc">Description</string>
+    <string name="hint_city">City</string>
+    <string name="button_save">Save</string>
+    <string name="empty_not_saved">Report not saved because it is empty.</string>
+</resources>
