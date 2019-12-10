@@ -42,7 +42,7 @@ public class NewReportActivity extends AppCompatActivity {
     private ImageView imageView;
     String currentPhotoPath;
 
-    private static String BaseUrl = "http://api.openweathermap.org/";
+    private static String BaseUrl = "https://api.openweathermap.org/";
     private static String AppId = "ae3d8d9e99bbdcf59e55d9e84781dc94";
     private static String lat = "39.76";
     private static String lon = "-84.19";
