@@ -41,4 +41,8 @@ dependencies {
 
 // UI
     implementation "com.google.android.material:material:$rootProject.materialVersion"
+
+// Retrofit for Weather
+    implementation 'com.squareup.retrofit2:retrofit:2.4.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.4.0'
 }

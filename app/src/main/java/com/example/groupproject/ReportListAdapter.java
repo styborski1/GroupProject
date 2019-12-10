@@ -49,8 +49,6 @@ public class ReportListAdapter extends RecyclerView.Adapter<ReportListAdapter.Re
         if (mReports != null) {
             Report current = mReports.get(position);
             holder.setReportDetails(current);
-            //holder.reportTitleView.setText(current.getReport());
-            //holder.reportTitleView.setText(current.getTitle());
 
         } else {
             // Covers the case of data not being ready yet.

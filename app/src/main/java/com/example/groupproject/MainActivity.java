@@ -57,14 +57,12 @@ public class MainActivity extends AppCompatActivity {
         super.onActivityResult(requestCode, resultCode, data);
 
         if (requestCode == NEW_REPORT_ACTIVITY_REQUEST_CODE && resultCode == RESULT_OK) {
-            //Report report = new Report(data.getStringExtra(NewReportActivity.EXTRA_REPLY));
             String title = data.getStringExtra("EXTRA_TITLE");
             String desc = data.getStringExtra("EXTRA_DESC");
             String city = data.getStringExtra("EXTRA_CITY");
+            String temperature = data.getStringExtra("EXTRA_TEMPERATURE");
 
-
-
-            Report report = new Report(title,desc,city);
+            Report report = new Report(title,desc,city,temperature);
 
             mReportViewModel.insert(report);
         } else {

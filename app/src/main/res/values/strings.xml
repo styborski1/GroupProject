@@ -5,4 +5,8 @@
     <string name="hint_city">City</string>
     <string name="button_save">Save</string>
     <string name="empty_not_saved">Report not saved because it is empty.</string>
+    <string name="button_image">Take Picture</string>
+    <string name="open_weather_maps_app_id">ae3d8d9e99bbdcf59e55d9e84781dc94</string>
+    <string name="weather">Weather Data Here</string>
+    <string name="button_weather">Get Weather</string>
 </resources>

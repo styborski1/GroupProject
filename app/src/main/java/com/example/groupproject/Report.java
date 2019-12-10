@@ -16,18 +16,15 @@ public class Report {
 
     private String description;
     private String city;
-
-/*
-    public Report(@NonNull String title){
-        this.title = title;
-    }
-*/
+    private String temperature;
 
 
-    public Report(@NonNull String title, String description, String city ) {
+
+    public Report(@NonNull String title, String description, String city, String temperature ) {
         this.title = title;
         this.description = description;
         this.city = city;
+        this.temperature = temperature;
     }
 
 
@@ -40,6 +37,9 @@ public class Report {
     public String getCity() {
         return city;
     }
+    public String getTemperature() {
+        return temperature;
+    }
 
     public void setTitle(String title){
         this.title = title;
@@ -49,6 +49,9 @@ public class Report {
     }
     public void setCity(String city){
         this.city = city;
+    }
+    public void setTemperature(String temperature){
+        this.temperature = temperature;
     }
 
 }

@@ -49,18 +49,10 @@ public abstract class ReportRoomDatabase extends RoomDatabase {
                 ReportDao dao = INSTANCE.reportDao();
                 dao.deleteAll();
 
-/*
-                Report report = new Report("Hello");
+                Report report = new Report("Hello", "Description 1", "Columbus", "22");
                 dao.insert(report);
-                report = new Report("World");
+                report = new Report("World", "Description 2", "Dayton", "25");
                 dao.insert(report);
-*/
-
-                Report report = new Report("Hello", "Description 1", "Columbus");
-                dao.insert(report);
-                report = new Report("World", "Description 2", "Dayton");
-                dao.insert(report);
-
 
             });
         }
